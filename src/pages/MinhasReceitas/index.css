@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardReceita {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.headerCard {
+    display: flex;
+    align-items: flex-end;
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.imageHeaderCard {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.titleCardText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.bodyCard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+.contentTitleCard {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF7F00;
+}
+
+.contentBodyCard {
+    font-size: 11px;
+    color: #4682B4;
+    margin-top: 10px;
+}
+
+.linkTo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #FF7F00;
+}

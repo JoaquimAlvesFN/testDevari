@@ -1,0 +1,125 @@
+html, body {
+    margin: 0px;
+    left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas: "h h"
+                        "b b";
+}
+
+header {
+    background-image: linear-gradient(to top, #4682B4 15%, #FF7F00 0);
+    grid-area: h;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.dev {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.food {
+    color: #4682B4;
+    font-size: 22px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.infoUser span {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.userPhoto {
+    background-color: #FFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+.pipe {
+    border-color: #4682B4;
+    border-width: 1px;
+    height: 10px;
+    width: 10px;
+}
+
+.userLogout {
+    cursor: pointer;
+    border:none;
+    padding: 10px ;
+    margin-right: 20px;
+
+    color: #FFF;
+    font-weight: bold;
+}
+
+body {
+    background-color: #DDD;
+    grid-area: b;
+}
+
+.bodyHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #FFF;
+    height: 60px;
+}
+
+.bodyHeader1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #FFF;
+    height: 60px;
+}
+
+.headerButtonBack {
+    cursor: pointer;
+    color: #4682B4;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.span1 {
+    color: #FF7F00;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
